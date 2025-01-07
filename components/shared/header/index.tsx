@@ -48,7 +48,7 @@ export default function Header() {
             <Link
               href={menu.href}
               key={menu.href}
-              className='header-button !p-2'
+              className='header-button border hover:border-gray-100 !p-2'
             >
               {menu.name}
             </Link>
