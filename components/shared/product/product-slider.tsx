@@ -14,7 +14,7 @@ import ProductCard from './product-card'
 export default function ProductSlider({
   title,
   products,
-  hideDetails = true,
+  hideDetails = false,
 }: {
   title?: string
   products: IProduct[]

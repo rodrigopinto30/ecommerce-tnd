@@ -43,7 +43,7 @@ const ProductCard = ({
 
   const ProductDetails = () => {
     return (
-      <div className='flex space-y-2'>
+      <div className='flex-1 space-y-2'>
         <p className='font-bold'>{product.brand}</p>
         <Link
           href={`/product/${product.slug}`}
@@ -83,6 +83,7 @@ const ProductCard = ({
     </div>
   ) : (
     <Card className='flex flex-col'>
+      chau
       <CardHeader className='p-3'>
         <ProductImage />
       </CardHeader>
