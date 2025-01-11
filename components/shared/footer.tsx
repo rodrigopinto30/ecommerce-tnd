@@ -14,7 +14,8 @@ export default function Footer() {
           className='bg-gray-800 w-full rounded-none'
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-          <ChevronUp className='mr-2 h-4 w-4'>Back to top</ChevronUp>
+          <ChevronUp className='mr-2 h-4 w-4' />
+          Back to top
         </Button>
       </div>
       <div className='p-4'>
